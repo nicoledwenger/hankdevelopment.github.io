@@ -3,11 +3,11 @@ import SubHead from '../SubHead';
 import Paragraph from '../Paragraph';
 
 const Footer = () => (
-  <footer className="container mx-auto py-16 px-3 mt-48 mb-8 text-gray-800">
-    <div className="flex -mx-3">
+  <footer className="container mx-auto py-16 px-3 mt-48 mb-8 text-gray-800 md:flex-column">
+    <div className="flex -mx-3 flex-col md:flex-row">
       <div className="flex-1 px-3">
         <SubHead className="text-3xl font-semibold">About Us</SubHead>
-        <Paragraph className="mt-5">HANK Development is a team of four female web developers based in West Lafayette, IN who specialize in creative and strategic websites.</Paragraph>
+        <Paragraph className="mt-5 mb-10">HANK Development is a team of four female web developers based in West Lafayette, IN who specialize in creative and strategic websites.</Paragraph>
       </div>
       {/* <div className="flex-1 px-3">
         <SubHead className="text-lg font-semibold">Important Links</SubHead>

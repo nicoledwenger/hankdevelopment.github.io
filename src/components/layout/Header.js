@@ -10,7 +10,7 @@ const Header = () => (
           <LogoIcon />
         </div>
       </div>
-      <div className="flex mt-4 sm:mt-0">
+      <div className="flex mt-4 sm:mt-0 sm:ml-10">
         <AnchorLink className="px-2 text-primary-default mr-5" href="#services">
           Services
         </AnchorLink>
