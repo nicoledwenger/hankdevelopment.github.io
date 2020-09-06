@@ -17,9 +17,11 @@ import Agriculture from '../assets/purdueagriculture.jpg';
 import ywca from '../assets/ywca.png';
 import TurkeyRun from '../assets/turkey-run-mobile.jpg';
 import Fade from 'react-reveal/Fade';
+import SEO from '../components/seo';
 
 export default () => (
   <Layout>
+    <SEO title="HANK Development | Home"/>
     <HeroComponent/>
     {/* <section className="pt-20 md:pt-40">
       <div className="container mx-auto px-8 lg:flex">
