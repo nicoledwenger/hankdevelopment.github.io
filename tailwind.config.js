@@ -3,12 +3,23 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          lighter: 'hsl(207, 73%, 52%)',
-          default: 'hsl(207, 73%, 57%)',
-          darker: 'hsl(207, 73%, 44%)'
-        }
+          light: '#ffffff',
+          default: '#393939',
+        },
+        purple: {
+          light: '#bfb8ca',
+          dark: '#4c2e75',
+        },
+        orange: {
+          light: '#fce7e0',
+          dark: '#f6af98',
+        },
+        blue: {
+          light: '#c9d2d8',
+          dark: '#4d6b7f',
+        },
       }
-    }
+    },
   },
   variants: {},
   plugins: []

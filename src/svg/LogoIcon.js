@@ -1,7 +1,7 @@
 import React from 'react';
 
 const LogoIcon = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
     <path fill="#BEE3F8" d="M44,7L4,23l40,16l-7-16L44,7z M36,23H17l18-7l1,6V23z" />
     <path
       fill="#3182CE"
@@ -11,7 +11,7 @@ const LogoIcon = () => (
       fill="#3182CE"
       d="M36,22l-1-6l-18,7l17,7l-2-5l-8-2h12V22z M27.661,21l5.771-2.244L33.806,21H27.661z"
     />
-  </svg>
+  </svg> */}
 );
 
 export default LogoIcon;
